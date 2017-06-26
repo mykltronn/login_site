@@ -15,5 +15,6 @@
 this node has standard node modules installed plus:
 --express
 --body-parser
+--express-validator
 --mustache-express
 --express-session
