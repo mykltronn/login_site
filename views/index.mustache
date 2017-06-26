@@ -1,27 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Login With express-session</title>
-  </head>
 
 
-  <body>
-    <header>
-      <h1>Here's A Pointless Website</h1>
-    </header>
+<form class="user-login" action="/" method="post">
+    <legend>Please Log In</legend>
 
-    <main>
-      <h3>Welcome, {{users}}. You've now logged in for some reason.</h3>
-    </main>
+    <label for="username">username</label>
+    <input type="text" name="username" placeholder="username">
 
+    <label for="password">password</label>
+    <input type="password" name="password" placeholder="password">
 
-
-
-
-
-
-
-  </body>
-</html>
+    <input type="submit">
+</form>
